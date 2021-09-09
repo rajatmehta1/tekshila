@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="2048px" height="2048px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 2048 2048"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil3 {fill:none}
+    .fil0 {fill:#A08E7F}
+    .fil1 {fill:#B8A794}
+    .fil2 {fill:#D7C3AD}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M404.718 255.999l908.255 0c17.6728,0 32.0008,14.328 32.0008,32.0008l0 1158.81c0,17.6728 -14.328,32.0008 -32.0008,32.0008l-908.255 0c-17.6728,0 -32.0008,-14.328 -32.0008,-32.0008l0 -1158.81c0,-17.6728 14.328,-32.0008 32.0008,-32.0008z"/>
+  <path class="fil1" d="M578.432 412.596l908.255 0c17.6728,0 32.0008,14.328 32.0008,32.0008l0 1158.81c0,17.6728 -14.328,32.0008 -32.0008,32.0008l-908.255 0c-17.6728,0 -32.0008,-14.328 -32.0008,-32.0008l0 -1158.81c0,-17.6728 14.328,-32.0008 32.0008,-32.0008z"/>
+  <path class="fil2" d="M735.027 569.191l908.255 0c17.6728,0 32.0008,14.328 32.0008,32.0008l0 1158.81c0,17.6728 -14.328,32.0008 -32.0008,32.0008l-908.255 0c-17.6728,0 -32.0008,-14.328 -32.0008,-32.0008l0 -1158.81c0,-17.6728 14.328,-32.0008 32.0008,-32.0008z"/>
+  <polygon class="fil1" points="845.553,1571.4 1532.76,1571.4 1532.76,1635.4 845.553,1635.4 "/>
+  <polygon class="fil1" points="845.553,1414.81 1532.76,1414.81 1532.76,1478.81 845.553,1478.81 "/>
+  <polygon class="fil1" points="845.553,1258.21 1532.76,1258.21 1532.76,1322.21 845.553,1322.21 "/>
+  <polygon class="fil1" points="845.553,1101.62 1532.76,1101.62 1532.76,1165.62 845.553,1165.62 "/>
+  <polygon class="fil1" points="845.553,788.427 1240.03,788.427 1240.03,852.428 845.553,852.428 "/>
+  <polygon class="fil1" points="845.553,945.022 1532.76,945.022 1532.76,1009.02 845.553,1009.02 "/>
+ </g>
+ <rect class="fil3" width="2048" height="2048"/>
+</svg>

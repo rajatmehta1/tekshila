@@ -1,0 +1,43 @@
+server:
+  port: 8080
+  application:
+    name: Takshashila
+#    context-path: /takshila
+spring:
+  data:
+    mongodb:
+      database: taxila
+      port: 27017
+      host: localhost
+  #Properties added to run templates without bouncing servers
+  thymeleaf:
+    cache: false
+#    prefix: classpath:/templates/
+#    suffix: .html
+  session:
+    store-type: mongodb
+#  security:
+#    oauth2:
+#      client:
+#        registration:
+#          google:
+#            client-id: 634357962378-b7740e5f77snbdecsrvumhcu657kmnf3.apps.googleusercontent.com
+#            client-secret: cGMcFRaprWw8j2ItzlXfaKcg
+#            scope:
+#              - email
+#              - profile
+#          facebook:
+#            clientId: 2731865323577542
+#            clientSecret: d9051f643ca1f0a122823f5d3c3623d1
+#          github:
+#            clientId: a8c55d51aaa4d6f2a66b
+#            clientSecret: be4fb85b095ad68f33f6a4db28c75aba9829c05d
+#        provider:
+#          facebook:
+#            authorizationUri: https://www.facebook.com/v3.0/dialog/oauth
+#            tokenUri: https://graph.facebook.com/v3.0/oauth/access_token
+#            userInfoUri: https://graph.facebook.com/v3.0/me?fields=id,first_name,middle_name,last_name,name,email,verified,is_verified,picture.width(250).height(250)
+STRIPE_SECRET_KEY: sk_test_C0h3rdUX0gCuOuSaz18HcvBN006P3DGx8l
+STRIPE_PUBLIC_KEY: pk_test_AVi7APVguiA0qjhOZb0T45qv00TUpPm0UC
+SESSION_INACTIVE_TIME : 10000
+USER_SESSION_ATTR : user_session_attribute
