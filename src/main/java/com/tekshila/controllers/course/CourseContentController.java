@@ -15,7 +15,7 @@ public class CourseContentController {
     public String openCoursePage(@PathVariable(name = "courseId") String courseId,
                                  @PathVariable(name = "pageId") String pageId, Model model) {
          if(isUserValid()) {
-             return "test"; //"mycourses/c" + courseId + "/" + pageId;
+             return "mycourses/c" + courseId + "/" + pageId;
          } else {
              return "login";
          }
