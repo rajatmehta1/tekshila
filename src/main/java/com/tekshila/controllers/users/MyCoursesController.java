@@ -61,13 +61,17 @@ public class MyCoursesController {
                              @PathVariable(name = "courseId") String courseId,
                              Model model, HttpSession httpSession) {
 //        EnrolledCourse course = enrolCourseRepository.findEnrolledCourseByUserId()
-        return "courses/preparing_for_system_design/design_mint";
+        //return "courses/preparing_for_system_design/design_mint";
+     //   return "mycourses/index";
+
+        return "forward:/t/c/" + courseId + "/p/1";
     }
 
     @RequestMapping(value = "/view/{courseId}/{userId}", method = {RequestMethod.GET})
     public String viewCourse(@PathVariable(name = "courseId") String courseId,@PathVariable(name = "userId") String userId, Model model, HttpSession httpSession) {
 //        EnrolledCourse course = enrolCourseRepository.findEnrolledCourseByUserId()
-        return "courses/preparing_for_system_design/design_mint";
+//        return "courses/preparing_for_system_design/design_mint";
+        return "mycourses/index";
     }
 
 
