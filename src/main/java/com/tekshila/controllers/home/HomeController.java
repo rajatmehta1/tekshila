@@ -29,6 +29,7 @@ public class HomeController {
         TekUser u = (TekUser) httpSession.getAttribute(session_store_name);
             model.addAttribute("courses", courses);
             model.addAttribute("user",u);
+            model.addAttribute("loggedInUser", u);
             model.addAttribute("subscribeDto",new SubscriberDto());
             return "thome";
     }

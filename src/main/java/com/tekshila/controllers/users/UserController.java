@@ -106,4 +106,9 @@ public class UserController {
         return "enrol";
     }
 
+    @RequestMapping(value = "/logout", method = RequestMethod.GET)
+    public String logout(Model model, HttpSession httpSession) {
+        httpSession.removeAttribute(session_store_name);
+        return "forward:/t/home";
+    }
 }
