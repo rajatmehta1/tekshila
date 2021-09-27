@@ -43,10 +43,11 @@ public class CourseController {
     }
 
     @RequestMapping(value = "/list", method = RequestMethod.GET)
-    public String viewAllCourses(Model model) {
+    public String viewAllCourses(Model model, HttpSession httpSession) {
+
         List<Course> courses = courseRepository.findAll();
             model.addAttribute("courses", courses);
-            return "fixed-student-courses";
+            return "allcourses";
     }
 
     @RequestMapping(value = "/view/{courseID}", method = {RequestMethod.GET,RequestMethod.POST})
