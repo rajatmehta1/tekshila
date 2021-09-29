@@ -1,10 +1,12 @@
 package com.tekshila.controllers.courses;
 
+import com.stripe.net.APIResource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import com.tekshila.controllers.stripe.ChargeRequest;
@@ -79,8 +81,8 @@ public class CourseController {
     }
 
 
-    @RequestMapping(value = "/create", method = RequestMethod.POST)
-    public String createCourse(CourseDto courseDto) {
+    @RequestMapping(value = "/create", method = RequestMethod.POST, consumes = "application/json")
+    public String createCourse(@RequestBody CourseDto courseDto) {
         Course c = new Course();
                 c.setName(courseDto.getName());
                 c.setStatus(Status.ACTIVE);
