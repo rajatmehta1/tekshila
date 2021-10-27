@@ -37,7 +37,7 @@ public class SubscribeController {
         model.addAttribute("subscribed","YES");
         model.addAttribute("subscribeDto",s);
 
-        return "thome";
+        return "forward:/t/home";
     }
 
 }

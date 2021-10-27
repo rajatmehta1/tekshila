@@ -1,5 +1,6 @@
 package com.tekshila.controllers.users;
 
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
@@ -17,6 +18,7 @@ import com.tekshila.dtos.User;
 
 import javax.servlet.http.HttpSession;
 
+@Api(value = "User Rest Controller", description = "REST API for User")
 @Controller
 @RequestMapping(value = "/t/user")
 public class UserController {
